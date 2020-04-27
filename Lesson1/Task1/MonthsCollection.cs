@@ -60,27 +60,26 @@ namespace Task1
             position = -1;
         }
 
-        public void GetDaysByMonth(int month)
+        public int GetDaysByMonth(int month)
         {
+            int dayValue = 0;
             foreach (Month m in months)
             {
                 if (month == m.MonthNumber)
-                {
-                    Console.WriteLine($"MonthNumber = {month}");
-                }
+                    dayValue = m.DayInMunth;
             }
+            return dayValue;
         }
 
-        public void GetMonthByDays(int days)
+        public Queue GetMonthByDays(int days)
         {
-            var query = from month in months
-                        where month.DayInMunth == days
-                        select month;
-
-            foreach (Month m in query)
+            Queue monthValue = new Queue { };
+            foreach (Month m in months)
             {
-                Console.WriteLine($"Month = {m.MonthNumber}");
+                if (days == m.DayInMunth)
+                    monthValue.Enqueue(m.MonthNumber);
             }
+            return monthValue;
         }
     }
 }

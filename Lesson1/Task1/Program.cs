@@ -13,8 +13,12 @@ namespace Task1
                 Console.WriteLine($"m.MonthNumber = {m.MonthNumber}, m.DayInMunth = {m.DayInMunth}");
             }
 
-            months.GetDaysByMonth(5);
-            months.GetMonthByDays(30);
+            Console.WriteLine($"MonthNumber = {months.GetDaysByMonth(5)}");
+
+            foreach (int m in months.GetMonthByDays(30))
+            {
+                Console.WriteLine($"Month = {m}");
+            }
         }
     }
 }
