@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{A27769D5-43BB-43BC-8DB2-8ED161068C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Helper", "Task1Helper\Task1Helper.csproj", "{F9D06375-FC9D-464A-9C80-05A2028E1E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A27769D5-43BB-43BC-8DB2-8ED161068C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27769D5-43BB-43BC-8DB2-8ED161068C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27769D5-43BB-43BC-8DB2-8ED161068C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27769D5-43BB-43BC-8DB2-8ED161068C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D06375-FC9D-464A-9C80-05A2028E1E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D06375-FC9D-464A-9C80-05A2028E1E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D06375-FC9D-464A-9C80-05A2028E1E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D06375-FC9D-464A-9C80-05A2028E1E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
